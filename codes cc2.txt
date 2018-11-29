@@ -1,0 +1,65 @@
+    static int convert(double g){
+        int grade = 1;
+        if(g < 7 && g >= 0){
+            grade = 70;
+        }else if(g < 19){
+            grade = 71;
+        }else if(g < 31){
+            grade = 72;
+        }else if(g < 43){
+            grade = 73;
+        }else if(g < 50){
+            grade = 74;
+        }else if(g < 51.5){
+            grade = 75;
+        }else if(g < 53){
+            grade = 76;
+        }else if(g < 55){
+            grade = 77;
+        }else if(g < 57){
+            grade = 78;
+        }else if(g < 59){
+            grade = 79;
+        }else if(g < 61){
+            grade = 80;
+        }else if(g < 63){
+            grade = 81;
+        }else if(g < 65){
+            grade = 82;
+        }else if(g < 67){
+            grade = 83;
+        }else if(g < 69){
+            grade = 84;
+        }else if(g < 71){
+            grade = 85;
+        }else if(g < 73){
+            grade = 86;
+        }else if(g < 75){
+            grade = 87;
+        }else if(g < 77){
+            grade = 88;
+        }else if(g < 79){
+            grade = 89;
+        }else if(g < 81){
+            grade = 90;
+        }else if(g < 83){
+            grade = 91;
+        }else if(g < 85){
+            grade = 92;
+        }else if(g < 87){
+            grade = 93;
+        }else if(g < 89){
+            grade = 94;
+        }else if(g < 91){
+            grade = 95;
+        }else if(g < 93){
+            grade = 96;
+        }else if(g < 95){
+            grade = 97;
+        }else if(g < 97){
+            grade = 98;
+        }else{
+            grade = 99;
+        }
+        return grade;
+    }
